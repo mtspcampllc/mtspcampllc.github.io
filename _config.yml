@@ -1,0 +1,14 @@
+title: MTSP Camp
+owner: Dennis Blake
+email: mtspcamp@gmail.com
+designer-name: Riyaad Azad
+designer-website: https://riyaadazad.github.io/
+google-fonts-meta-head-link: #
+current-year: 2020
+description: > 
+show_excerpts: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
