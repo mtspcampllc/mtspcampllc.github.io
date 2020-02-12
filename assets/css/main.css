@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section, nav, footer {
+    padding: 2% 15% 2% 15%;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    max-width: 20%;
+}
+
+.site-brand {
+    margin-top: 2%;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 1.5em;
+}
+
+nav {
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 2%;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+nav li {
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    margin: -5px;
+    padding: 1.5%;
+    font-size: 0.7em;
+}
+
+nav li:nth-child(1) {
+    background-color: navy;
+}
+
+nav li:nth-child(2) {
+    background-color: orange;
+}
+
+nav li:nth-child(3) {
+    background-color: violet;
+}
+
+nav li:nth-child(4) {
+    background-color: magenta;
+}
+
+nav li:nth-child(5) {
+    background-color: green;
+}
