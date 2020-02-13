@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
     scroll-behavior: smooth;
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
@@ -29,6 +29,7 @@ header img {
 
 nav {
     padding: 0;
+    margin: 0;
 }
 
 nav a {
@@ -70,4 +71,54 @@ nav li:nth-child(4) {
 
 nav li:nth-child(5) {
     background-color: green;
+}
+
+.headline {
+    padding-right: 0;
+    padding-left: 0;
+    color: black;
+}
+
+.headline h1 {
+    font-size: 2em;
+}
+
+.heroimage {
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("/assets/images/MTSP Camp Photo.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25%;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer div {
+    font-size: 0.5em;
+    margin: 3%;
+}
+
+footer div:nth-child(1) {
+    background-color: green;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 3%;
+    margin: 6%;
+    font-size: 1em;
+}
+
+footer .fa {
+    margin: 2%;
+    padding: 3%;
+    color: black;
+    background-color: white;
+    border-radius: 100%;
 }
