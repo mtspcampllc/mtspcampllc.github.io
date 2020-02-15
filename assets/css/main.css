@@ -96,6 +96,12 @@ nav li:nth-child(6) {
     padding: 10%;
 }
 
+div img {
+    max-width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .columns, .cards {
     display: inline-block;
 }
@@ -130,10 +136,21 @@ nav li:nth-child(6) {
     background: violet;
 }
 
+.profile .card {
+    margin-top: 5%;
+}
+
+.card img {
+    width: 35%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
 footer {
     background-color: navy;
     color: white;
     padding: 15%;
+    padding-top: 5%;
 }
 
 footer a {
