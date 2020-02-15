@@ -81,7 +81,7 @@ nav li:nth-child(6) {
 .headline {
     padding-right: 0;
     padding-left: 0;
-    color: black;
+    color: white;
 }
 
 .headline h1 {
@@ -94,6 +94,40 @@ nav li:nth-child(6) {
     background-size: cover;
     background-position: center;
     padding: 10%;
+}
+
+.columns, .cards {
+    display: inline-block;
+}
+
+.column, .card {
+    float: left;
+    width: 50%;
+    font-size: 0.8em;
+}
+
+.third {
+    font-size: 0.6em;
+    width: 33.33%;
+}
+
+.columns:after, .cards:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.about {
+    background: darkblue;
+    color: white;
+}
+
+.testimonials {
+    background: orange;
+}
+
+.leadership {
+    background: violet;
 }
 
 footer {
@@ -127,4 +161,10 @@ footer .fa {
     color: black;
     background-color: white;
     border-radius: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+  .column, .card {
+    width: 100%;
+  }
 }
