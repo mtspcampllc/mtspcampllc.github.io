@@ -153,6 +153,10 @@ footer {
     padding-top: 5%;
 }
 
+.donate a {
+    text-decoration: none;
+}
+
 footer a {
     color: white;
 }
