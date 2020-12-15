@@ -4,15 +4,15 @@ html, body {
     min-height: 100%;
     min-width: 100%;
     scroll-behavior: smooth;
-    font-size: 25px;
+    /*font-size: 25px;*/
     font-family: 'Open Sans', sans-serif;
 }
 
-.section, nav, footer {
+.section, footer {
     padding: 2% 15% 2% 15%;
     text-align: center;
 }
-
+/*
 header {
     text-align: center;
 }
@@ -43,7 +43,7 @@ nav ul {
     margin: 2%;
     padding: 0;
     text-transform: uppercase;
-}
+} 
 
 nav li {
     display: inline-block;
@@ -52,30 +52,30 @@ nav li {
     margin: -5px;
     padding: 3%;
     font-size: 0.7em;
-}
+}*/
 
 nav li:nth-child(1) {
-    background-color: black;
+    color: black !important;
 }
 
 nav li:nth-child(2) {
-    background-color: navy;
+    color: navy !important;
 }
 
 nav li:nth-child(3) {
-    background-color: orange;
+    color: orange !important;
 }
 
 nav li:nth-child(4) {
-    background-color: violet;
+    color: violet !important;
 }
 
 nav li:nth-child(5) {
-    background-color: magenta;
+    color: magenta !important;
 }
 
 nav li:nth-child(6) {
-    background-color: green;
+    color: green !important;
 }
 
 .headline {
@@ -188,4 +188,9 @@ footer .fa {
   .column, .card {
     width: 100%;
   }
+}
+
+.more-vertical-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
