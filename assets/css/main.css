@@ -122,11 +122,6 @@ footer a {
     color: white;
 }
 
-footer div {
-    font-size: 0.5em;
-    margin: 3%;
-}
-
 footer div:nth-child(1) {
     background-color: green;
     color: white;
