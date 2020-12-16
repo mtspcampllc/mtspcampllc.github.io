@@ -63,27 +63,6 @@ div img {
     margin-bottom: 5%;
 }
 
-.columns, .cards {
-    display: inline-block;
-}
-
-.column, .card {
-    float: left;
-    width: 50%;
-    font-size: 0.8em;
-}
-
-.third {
-    font-size: 0.6em;
-    width: 33.33%;
-}
-
-.columns:after, .cards:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .about {
     background: darkblue;
     color: white;
@@ -95,16 +74,6 @@ div img {
 
 .leadership {
     background: violet;
-}
-
-.profile .card {
-    margin-top: 5%;
-}
-
-.card img {
-    width: 35%;
-    border-radius: 50%;
-    border: 2px solid black;
 }
 
 footer {
