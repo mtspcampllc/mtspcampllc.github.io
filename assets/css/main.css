@@ -107,12 +107,6 @@ footer .fa {
     border-radius: 100%;
 }
 
-@media only screen and (max-width: 400px) {
-  .column, .card {
-    width: 100%;
-  }
-}
-
 .more-vertical-padding {
     padding-top: 25px;
     padding-bottom: 25px;
